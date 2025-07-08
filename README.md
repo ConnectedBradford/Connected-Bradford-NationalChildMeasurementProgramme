@@ -8,17 +8,17 @@ This is the Connected Bradford National Child Measurement Programme (NCMP) GitHu
 
 Contains the scripts and documentation for NCMP
 
-It contains approximately 120,000 children. The dataset has been fully anonymised, but can link to other FDM's.
+The dataset has been fully anonymised, but can link to other FDM's.
 
 There is one FDM for NCMP . 
 
-CB_FDM_NCMP_v1- build date 2023-04-15 - data up to 2021-07-13
+CB_FDM_NCMP_v2- build date 2025-07-03 
+Observation_period  - 1900-01-01 to 2023-04-24
 
 
 # NCMP
 The NCMP FDM is made up of 1 source table (summarised below and data dictionaries linked) from routinely collected data for 120,979 individuals and their routinely collected clinical data. 
 
-The dates relevant for the latest build are: 2011-09-16	to 2021-07-13
 
 
 
@@ -28,13 +28,16 @@ The source tables are largely populated by fields with the tbl_ where there is a
 ### Standard FDM tables included in this dataset*
 person.
 
-observation period.
+observation_period.
 
-visit.
+personLSOA.
+
+tmp_persons_distinct.
+
 
 ### The source data tables are: 
 
-tbl_bmbc_NCMP_Measures
+cb_bmbc_All_NCMP_Measures_COMBINED_V2
 
 
 
